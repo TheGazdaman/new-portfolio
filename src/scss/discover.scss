@@ -1,0 +1,23 @@
+$gray_white: #f0f0f0;
+$primary_black: #1a1a1a;
+$gold: #e1a87a;
+
+
+.discover {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: $gray_white;
+  background: rgba(#000, .6);
+  text-align: center;
+
+  h1 {
+    font-weight: 100;
+  }
+}
+
+.head-disc em {
+  color: #e1a87a;
+  font-style: normal;
+  //border-bottom: 3px solid #1a1a1a; 
+}

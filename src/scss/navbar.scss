@@ -1,0 +1,37 @@
+$gray_white: #f0f0f0;
+$primary_black: #1a1a1a;
+$gold: #e1a87a;
+
+@media (min-width: 768px) {
+    .nav-bar {
+      display: flex;
+      background-color: $primary_black;
+      justify-content: space-around;
+      height: 70px;
+      padding-top: 30px;
+    }
+
+    nav a {
+    color: $gray_white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 0px 70px 0px 70px;
+    
+    }
+}
+
+@media (max-width: 767px) {
+  .nav-bar {
+    display: none;
+    }
+  .nav a {
+    display: none;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .nav a {
+    padding: 0px 100px 0px 100px;
+
+  }
+}

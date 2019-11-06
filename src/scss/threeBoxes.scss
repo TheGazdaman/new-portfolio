@@ -1,0 +1,45 @@
+$gray_white: #f0f0f0;
+$primary_black: #1a1a1a;
+$gold: #e1a87a;
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $gray_white;
+  background: rgba(#000, .6);
+  padding-bottom: 15vh;
+  padding-top: 10vh;
+
+  .block-line {
+    width: 70%;
+    justify-content: space-around;
+
+    h1 {
+      text-align: center;
+      color: $gold;
+      font-weight: 100;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 767px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 300px;
+
+    .block-line {
+      width: 30%;
+    }
+    
+  }
+  
+}
